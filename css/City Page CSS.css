@@ -1,12 +1,9 @@
 /* HERO IMAGE */
-
 .fdm-innerbanner-mini {
 	display: none;
-	color: #fff;
 }
 
 /* NAV BAR */
-
 @media (min-width: 320px) {
 	section.fdm-header-bottombar {
 			background-color: #38373E;
@@ -14,7 +11,6 @@
 }
 
 /* BUTTONS */
-
 a.button.large {
 	min-width: 200px;
 	margin-right: 20px;
@@ -27,11 +23,9 @@ a.button {
 }
 
 /* HUBSPOT FORM */
-
 .hs-form label {
 	text-align: left;
 }
-
 .hs-form fieldset.form-columns-1,
 .hs-form input[type="email"],
 .hs-form input[type="text"] {
@@ -39,13 +33,11 @@ a.button {
 }
 
 /* ENTIRE SECTION */
-
 .fdm-our-mission {
 	padding-top: 100px;
 }
 
 /* TOP RESTAURANTS */
-
 img.thumbnail:hover {
   box-shadow: 0 0 6px 1px #992221;
 }
@@ -55,7 +47,6 @@ img.thumbnail {
 }
 
 /* STATS BAR */
-
 .stat-red {
   color: #992221;
 	font-size: 65px;
@@ -107,7 +98,6 @@ img.thumbnail {
 }
 
 /* TEXT */
-
 h1 {
 	padding-bottom: 10px;
 }
@@ -118,7 +108,6 @@ h1 {
 }
 
 /* Second Image Resizing */
-
 @media (min-width: 1200px) {
 	.bgposition {
 		background-position-y: -100px;
