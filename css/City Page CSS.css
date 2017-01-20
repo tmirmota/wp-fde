@@ -1,16 +1,8 @@
 /* HERO IMAGE */
-<<<<<<< HEAD
 /* MAC Test */
 .fdm-innerbanner-mini {
 	display: none;
 	color: #fff;
-=======
-/*Test*/
-.fdm-innerbanner-mini {
-	display: none;
-	color: #987128;
->>>>>>> 6cbdae1cd124940a70b5610d2055453baf1fe4e4
-}
 
 /* NAV BAR */
 @media (min-width: 320px) {
