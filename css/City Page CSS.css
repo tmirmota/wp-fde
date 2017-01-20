@@ -1,0 +1,129 @@
+/* HERO IMAGE */
+
+.fdm-innerbanner-mini {
+	display: none;
+}
+
+/* NAV BAR */
+
+@media (min-width: 320px) {
+	section.fdm-header-bottombar {
+			background-color: #38373E;
+	}
+}
+
+/* BUTTONS */
+
+a.button.large {
+	min-width: 200px;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+a.button {
+	margin: 10px;
+}
+
+/* HUBSPOT FORM */
+
+.hs-form label {
+	text-align: left;
+}
+
+.hs-form fieldset.form-columns-1,
+.hs-form input[type="email"],
+.hs-form input[type="text"] {
+	width: 100% !important;
+}
+
+/* ENTIRE SECTION */
+
+.fdm-our-mission {
+	padding-top: 100px;
+}
+
+/* TOP RESTAURANTS */
+
+img.thumbnail:hover {
+  box-shadow: 0 0 6px 1px #992221;
+}
+
+img.thumbnail {
+	border-radius: 5px;
+}
+
+/* STATS BAR */
+
+.stat-red {
+  color: #992221;
+	font-size: 65px;
+}
+
+.stat-blue {
+  color: #48A1D9;
+	font-size: 65px;
+}
+
+.stat-green {
+  color: #1C8743;
+	font-size: 65px;
+}
+
+.stat-lightgreen {
+  color: #5FBD6C;
+	font-size: 65px;
+}
+
+.stat-gold {
+  color: #FEAC0E;
+	font-size: 65px;
+}
+
+.stat-caption-red {
+	color: #992221;
+	font-size: 24px;
+}
+
+.stat-caption-blue {
+	color: #48A1D9;
+	font-size: 24px;
+}
+
+.stat-caption-green {
+	color: #1C8743;
+	font-size: 24px;
+}
+
+.stat-caption-lightgreen {
+	color: #5FBD6C;
+	font-size: 24px;
+}
+
+.stat-caption-gold {
+	color: #FEAC0E;
+	font-size: 24px;
+}
+
+/* TEXT */
+
+h1 {
+	padding-bottom: 10px;
+}
+
+.subhead {
+	font-size: 24px;
+	line-height: 1.5em;
+}
+
+/* Second Image Resizing */
+
+@media (min-width: 1200px) {
+	.bgposition {
+		background-position-y: -100px;
+	}
+}
+
+li.logo {
+	padding: 20px;
+}

@@ -1,0 +1,83 @@
+.fdm-innerbanner-mini {
+	display: none;
+}
+
+@media (min-width: 320px) {
+	section.fdm-header-bottombar {
+			background-color: #38373E;
+	}
+}
+
+.fdm-our-mission {
+	padding-top: 0px;
+}
+
+
+a.button.large {
+	min-width: 200px;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+.hs-form label {
+	text-align: left;
+}
+
+.hs-form fieldset.form-columns-1,
+.hs-form input[type="email"],
+.hs-form input[type="text"] {
+	width: 100% !important;
+}
+
+
+@media (min-width: 1200px) {
+	.hero {
+		background-color: #F4F4F4;
+		width: 100vw !important;
+		margin-left: calc((100vw - 1170px) / 2 * -1) !important;
+	}
+
+	.hero-text {
+		max-width: 1200px !important;
+		margin: auto !important;
+	}
+}
+
+/* Hero Section */
+
+.plan {
+	color: #9A98A5;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-size: 24px;
+}
+
+.plan-head {
+	line-height: 1.3em;
+	font-size: 54px;
+}
+
+.plan-subhead {
+	color: #ffffff;
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
+.button.plan {
+	color: #38373E;
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	margin: 25px 0px;
+	width: 100%;
+	min-width: 0px !important;
+}
+
+.button.hollow.plan-h {
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	margin: 25px 0px;
+	width: 100%;
+	min-width: 0px !important;
+}
