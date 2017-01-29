@@ -1,0 +1,33 @@
+
+​​{% if email.has_customer_feedback? %}
+<hr />
+<div id="section-customer-feedback" style="background-color:#fafafa; border:0; padding:2px;">
+  <div id="customer-feedback-question">{{email.customer_feedback.question}}</div>
+  {% if email.customer_feedback.yes_no_rating? %}
+    <span class="customer-feedback-rating">
+      <a href="{{email.customer_feedback.rating0_link}}"><img style="vertical-align:middle;" src="{{email.customer_feedback.rating0_yes_no_img}}" alt="{{system.snippets.customer_feedback_poor}}" title="{{system.snippets.customer_feedback_poor}}"></a>
+    </span>
+    <span style="margin: 0 10px 0 10px;">|</span>
+    <span class="customer-feedback-rating">
+      <a href="{{email.customer_feedback.rating3_link}}"><img style="vertical-align:middle;" src="{{email.customer_feedback.rating3_yes_no_img}}" alt="{{system.snippets.customer_feedback_good}}" title="{{system.snippets.customer_feedback_good}}"></a>
+    </span>
+  {% endif %}
+  {% if email.customer_feedback.four_star_rating? %}
+    <span class="customer-feedback-rating">
+      <a href="{{email.customer_feedback.rating0_link}}"><img style="vertical-align:middle;" src="{{email.customer_feedback.rating0_four_star_img}}" alt="{{system.snippets.customer_feedback_poor}}" title="{{system.snippets.customer_feedback_poor}}"></a>
+    </span>
+    <span style="margin: 0 10px 0 10px;">|</span>
+    <span class="customer-feedback-rating">
+      <a href="{{email.customer_feedback.rating1_link}}"><img style="vertical-align:middle;" src="{{email.customer_feedback.rating1_four_star_img}}" alt="{{system.snippets.customer_feedback_fair}}" title="{{system.snippets.customer_feedback_fair}}"></a>
+    </span>
+    <span style="margin: 0 10px 0 10px;">|</span>
+    <span class="customer-feedback-rating">
+      <a href="{{email.customer_feedback.rating2_link}}"><img style="vertical-align:middle;" src="{{email.customer_feedback.rating2_four_star_img}}" alt="{{system.snippets.customer_feedback_good}}" title="{{system.snippets.customer_feedback_good}}"></a>
+    </span>
+    <span style="margin: 0 10px 0 10px;">|</span>
+    <span class="customer-feedback-rating">
+      <a href="{{email.customer_feedback.rating3_link}}"><img style="vertical-align:middle;" src="{{email.customer_feedback.rating3_four_star_img}}" alt="{{system.snippets.customer_feedback_great}}" title="{{system.snippets.customer_feedback_great}}"></a>
+    </span>
+  {% endif %}
+</div>
+{% endif %}

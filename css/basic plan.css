@@ -12,24 +12,12 @@
 	padding-top: 0px;
 }
 
-
 a.button.large {
 	min-width: 200px;
 	margin-right: 20px;
 	margin-left: 20px;
 	text-decoration: none;
 }
-
-.hs-form label {
-	text-align: left;
-}
-
-.hs-form fieldset.form-columns-1,
-.hs-form input[type="email"],
-.hs-form input[type="text"] {
-	width: 100% !important;
-}
-
 
 @media (min-width: 1200px) {
 	.hero {
@@ -65,29 +53,29 @@ a.button.large {
 }
 
 .plan-subhead {
-	color: #ffffff;
+	color: #38373E;
 	font-size: 24px;
 	margin-top: 20px;
 	margin-bottom: 60px;
 }
 
 .button.plan {
-	color: #38373E;
-	background-color: #ffffff;
-	border: 2px solid #ffffff;
+	color: #FFF;
+	background-color: #48A1D9;
+	border: 2px solid #48A1D9;
 	margin: 25px 0px;
 	min-width: 0px !important;
 }
 
 .button.plan:hover,
 .button.plan:active {
-	background-color: #EFEFEF;
-	border: 2px solid #EFEFEF;
+	background-color: #2986c1;
+	border: 2px solid #2986c1;
 }
 
 .button.hollow.plan-h {
-	color: #ffffff;
-	border: 2px solid #ffffff;
+	color: #FFF;
+	border: 2px solid #FFF;
 	margin: 25px 0px;
 	width: 100%;
 	min-width: 0px !important;
@@ -154,6 +142,7 @@ a.button.large {
 
 .stat-bold {
 	font-size: 24px;
+	color: #38373E;
 }
 
 .features-paragraph {

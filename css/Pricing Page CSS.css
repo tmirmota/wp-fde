@@ -1,13 +1,3 @@
-.fdm-innerbanner-mini {
-	display: none;
-}
-
-@media (min-width: 320px) {
-	section.fdm-header-bottombar {
-			background-color: #38373E;
-	}
-}
-
 .fdm-our-mission {
 	padding-top: 100px;
 }
@@ -24,16 +14,12 @@ p.white {
 	color: #FFF;
 }
 
-.fdm-our-mission {
-	padding-top: 100px;
-}
-
 p.faq {
 	margin-bottom: 18px;
 }
 
 /* Button */
-a.button, a.button.hollow.alert {
+a.button.service, a.button.hollow.alert.service {
   min-width: 80%;
   text-decoration: none;
 }
@@ -57,7 +43,7 @@ h2.product.white {
 /* Column Text*/
 .p-callout {
   padding: 0 20px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 p.hours {
@@ -144,8 +130,8 @@ hr.zero {
 
 /* Small Grey Line */
 .small {
-	background-color: #A2A2A2;
-	border: 1px;
+	border-bottom: 1px solid #cacaca;
+	width: 30px;
 }
 
 /* Alternate Button Colors */

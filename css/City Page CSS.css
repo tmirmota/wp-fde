@@ -1,8 +1,8 @@
 /* HERO IMAGE */
-/* MAC Test */
 .fdm-innerbanner-mini {
 	display: none;
 	color: #fff;
+}
 
 /* NAV BAR */
 @media (min-width: 320px) {
@@ -19,14 +19,10 @@ a.button.large {
 	text-decoration: none;
 }
 
-a.button {
-	margin: 10px;
-}
-
-/* HUBSPOT FORM */
 .hs-form label {
 	text-align: left;
 }
+
 .hs-form fieldset.form-columns-1,
 .hs-form input[type="email"],
 .hs-form input[type="text"] {
@@ -45,6 +41,7 @@ img.thumbnail:hover {
 
 img.thumbnail {
 	border-radius: 5px;
+	border: none;
 }
 
 /* STATS BAR */
@@ -106,13 +103,7 @@ h1 {
 .subhead {
 	font-size: 24px;
 	line-height: 1.5em;
-}
-
-/* Second Image Resizing */
-@media (min-width: 1200px) {
-	.bgposition {
-		background-position-y: -100px;
-	}
+	margin-bottom: 40px;
 }
 
 li.logo {

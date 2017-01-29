@@ -53,7 +53,7 @@ a.button.large {
 /* Hero Section */
 
 .plan {
-	color: #9A98A5;
+	color: #D4AF37;
 	margin-top: 100px;
 	margin-bottom: 50px;
 	font-size: 24px;
@@ -72,22 +72,22 @@ a.button.large {
 }
 
 .button.plan {
-	color: #38373E;
-	background-color: #ffffff;
-	border: 2px solid #ffffff;
+	color: #FFF;
+	background-color: #D4AF37;
+	border: 2px solid #D4AF37;
 	margin: 25px 0px;
 	min-width: 0px !important;
 }
 
 .button.plan:hover,
 .button.plan:active {
-	background-color: #EFEFEF;
-	border: 2px solid #EFEFEF;
+	background-color: #C28F21;
+	border: 2px solid #C28F21;
 }
 
 .button.hollow.plan-h {
-	color: #ffffff;
-	border: 2px solid #ffffff;
+	color: #FFF;
+	border: 2px solid #FFF;
 	margin: 25px 0px;
 	width: 100%;
 	min-width: 0px !important;
@@ -154,6 +154,7 @@ a.button.large {
 
 .stat-bold {
 	font-size: 24px;
+	color: #D4AF37;
 }
 
 .features-paragraph {

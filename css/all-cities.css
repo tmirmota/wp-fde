@@ -1,0 +1,4 @@
+a:hover {
+  opacity: .8;
+  filter: alpha (opacity=80);
+}
