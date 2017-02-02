@@ -207,3 +207,21 @@ hr.zero {
 .fdm-partnerus {
 	padding-top: 14px;
 }
+
+@media (min-width: 500px) {
+	.footer-image {
+		background-image: url('https://cdn2.hubspot.net/hubfs/2116999/Foodee%20Plans/bg-icecream.jpg'); background-size: cover;
+		background-position-x: center;
+	}
+}
+
+
+@media (max-width: 500px) {
+	.footer-mobile-image {
+		background-image: url('https://cdn2.hubspot.net/hubfs/2116999/Foodee%20Plans/bg-icecream-mobile.jpg');
+		background-position-x: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-color: #faf3e1;
+	}
+}
